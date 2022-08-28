@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script src="https://cdn.tailwindcss.com"></script>
+        <title>Country Details</title>
+    </head>
+    <body class="bg-gray-300">
+        <h1 class="text-center text-4xl font-bold my-5 text-cyan-700">Explore Countries !!!</h1>
+        <div class="text-center">
+            <input type="text" class="w-72 h-10 rounded px-2" />
+            <button class="ml-3 mb-12 px-5 py-2 rounded-lg bg-blue-400 hover:bg-blue-500 font-bold">Search</button>
+        </div>
+        <div class="grid sm:grid-cols-1 md:grid-cols-3 w-11/12 mx-auto gap-4 place-items-center">
+            <!-- -------------------------card------------------------ -->
+            <div class="max-w-sm bg-white p-5 rounded-lg border bg-gray-400 border-gray-300 shadow-lg">
+                <a href="#">
+                    <img class="rounded-lg w-3/4 ml-12" src="/images/Flag.png" alt="" />
+                </a>
+                <div class="bg-gray-400 rounded-b-lg mt-3">
+                    <a href="#">
+                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900">Russia</h5>
+                    </a>
+                    <p class="mb-3 font-normal text-gray-700">
+                        Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological
+                        order.
+                    </p>
+                    <p class="mb-3 font-normal text-gray-700">Here are the</p>
+                    <p class="mb-3 font-normal text-gray-700">Here are the</p>
+                </div>
+            </div>
+        </div>
+        <script src="/api.js"></script>
+    </body>
+</html>
